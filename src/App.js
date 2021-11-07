@@ -18,9 +18,9 @@ function App() {
             <Flex className="App" align='center' justifyContent='center'>
               <Router>
                 <Switch>
-                  <Route exact path='/' component={Login} />
-                  <Route exact path='/chat' component={Chat} />
-                  <Route exact path='/admin' component={Admin} />
+                  <Route  path='/' component={Login} />
+                  <Route  path='/chat' component={Chat} />
+                  <Route  path='/admin' component={Admin} />
                   <Route component={DefaultPage} />
                 </Switch>
               </Router>
