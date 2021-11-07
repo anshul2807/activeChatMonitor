@@ -1,0 +1,27 @@
+.admin{
+    border: 1px solid black;
+    width: 400px;
+}
+.admin__sec1{
+    text-align: center;
+
+
+}
+.admin__sec1 h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 15px;
+}
+.admin__sec2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.admin__block{
+    margin: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
