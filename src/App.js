@@ -19,8 +19,8 @@ function App() {
               <Router>
                 <Switch>
                   <Route exact  path='/' component={Login} />
-                  <Route  path='/chat' component={Chat} />
-                  <Route  path='/admin' component={Admin} />
+                  <Route exact  path='/chat' component={Chat} />
+                  <Route exact  path='/admin' component={Admin} />
                   <Route component={DefaultPage} />
                 </Switch>
               </Router>
