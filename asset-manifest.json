@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/activeChatMonitor/static/css/main.6d94e405.chunk.css",
-    "main.js": "/activeChatMonitor/static/js/main.0ba91a9a.chunk.js",
-    "main.js.map": "/activeChatMonitor/static/js/main.0ba91a9a.chunk.js.map",
-    "runtime-main.js": "/activeChatMonitor/static/js/runtime-main.84c3d364.js",
-    "runtime-main.js.map": "/activeChatMonitor/static/js/runtime-main.84c3d364.js.map",
-    "static/js/2.9e68a6cf.chunk.js": "/activeChatMonitor/static/js/2.9e68a6cf.chunk.js",
-    "static/js/2.9e68a6cf.chunk.js.map": "/activeChatMonitor/static/js/2.9e68a6cf.chunk.js.map",
-    "index.html": "/activeChatMonitor/index.html",
-    "static/css/main.6d94e405.chunk.css.map": "/activeChatMonitor/static/css/main.6d94e405.chunk.css.map",
-    "static/js/2.9e68a6cf.chunk.js.LICENSE.txt": "/activeChatMonitor/static/js/2.9e68a6cf.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.6d94e405.chunk.css",
+    "main.js": "/static/js/main.0ba91a9a.chunk.js",
+    "main.js.map": "/static/js/main.0ba91a9a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c012fedc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c012fedc.js.map",
+    "static/js/2.95d67c1f.chunk.js": "/static/js/2.95d67c1f.chunk.js",
+    "static/js/2.95d67c1f.chunk.js.map": "/static/js/2.95d67c1f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6d94e405.chunk.css.map": "/static/css/main.6d94e405.chunk.css.map",
+    "static/js/2.95d67c1f.chunk.js.LICENSE.txt": "/static/js/2.95d67c1f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.84c3d364.js",
-    "static/js/2.9e68a6cf.chunk.js",
+    "static/js/runtime-main.c012fedc.js",
+    "static/js/2.95d67c1f.chunk.js",
     "static/css/main.6d94e405.chunk.css",
     "static/js/main.0ba91a9a.chunk.js"
   ]
