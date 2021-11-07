@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/activeChatMonitor/static/css/main.6d94e405.chunk.css",
-    "main.js": "/activeChatMonitor/static/js/main.24a88a97.chunk.js",
-    "main.js.map": "/activeChatMonitor/static/js/main.24a88a97.chunk.js.map",
+    "main.js": "/activeChatMonitor/static/js/main.0ba91a9a.chunk.js",
+    "main.js.map": "/activeChatMonitor/static/js/main.0ba91a9a.chunk.js.map",
     "runtime-main.js": "/activeChatMonitor/static/js/runtime-main.84c3d364.js",
     "runtime-main.js.map": "/activeChatMonitor/static/js/runtime-main.84c3d364.js.map",
     "static/js/2.9e68a6cf.chunk.js": "/activeChatMonitor/static/js/2.9e68a6cf.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.84c3d364.js",
     "static/js/2.9e68a6cf.chunk.js",
     "static/css/main.6d94e405.chunk.css",
-    "static/js/main.24a88a97.chunk.js"
+    "static/js/main.0ba91a9a.chunk.js"
   ]
 }
