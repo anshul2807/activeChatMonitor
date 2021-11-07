@@ -21,7 +21,7 @@ function App() {
                   <Route exact  path='/' component={Login} />
                   <Route exact  path='/chat' component={Chat} />
                   <Route exact  path='/admin' component={Admin} />
-                  <Route component={DefaultPage} />
+                  {/* <Route component={DefaultPage} /> */}
                 </Switch>
               </Router>
             </Flex>
