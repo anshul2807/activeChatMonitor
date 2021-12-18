@@ -21,12 +21,18 @@ const Chat = () => {
     const toast = useToast()
 
     window.onpopstate = e => logout()
+
+    
+
     //Checks to see if there's a user present
     useEffect(() => { if (!name) return history.push('/') }, [history, name])
 
 
     useEffect(() => {
         socket.on("message", msg => {
+            if(msg.check == true){
+                logout();
+            }
             setMessages(messages => [...messages, msg]);
         })
 
@@ -45,7 +51,7 @@ const Chat = () => {
 
     const handleSendMessage = (e) => {
         e.preventDefault();
-        socket.emit('sendMessage', message, () => setMessage(''))
+        socket.emit('sendMessage',{name,room,message}, () => setMessage(''))
         setMessage('')
     }
 

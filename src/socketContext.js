@@ -4,8 +4,8 @@ import io from 'socket.io-client'
 const SocketContext = React.createContext()
 
 const SocketProvider = ({ children }) => {
-    const ENDPOINT = 'https://still-tundra-73032.herokuapp.com/';
-    // const ENDPOINT = 'http://localhost:5000/';
+    // const ENDPOINT = 'https://still-tundra-73032.herokuapp.com/';
+    const ENDPOINT = 'http://localhost:5000/';
     const socket = io(ENDPOINT, { transports: ['websocket', 'polling'] })
     return (
         <SocketContext.Provider value={socket}>
