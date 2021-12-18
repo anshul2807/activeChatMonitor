@@ -3,9 +3,9 @@ import './Admin.css'
 import axios from 'axios';
 function Admin() {
     const[current_rooms,setCurrentRooms] = useState([]);
-    // const url = "https://still-tundra-73032.herokuapp.com";
+    const url = "https://still-tundra-73032.herokuapp.com";
     const [count,setCount] = useState(0);
-    const url = "http://localhost:5000";
+    // const url = "http://localhost:5000";
     useEffect(() => {
         axios.get(`${url}/allrooms`)
         .then((res)=>{
