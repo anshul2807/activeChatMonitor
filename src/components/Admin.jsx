@@ -9,7 +9,7 @@ const Admin = () => {
     const fetchRooms = () => {
         setLoading(true);
         // Ensure this matches your backend PORT
-        axios.get('https://active-chat-monitor-705615852872.asia-south2.run.app/allrooms')
+        axios.get('https://active-chat-backend-203412458873.asia-south1.run.app/allrooms')
             .then((res) => {
                 setCurrentRooms(res.data);
                 setLoading(false);

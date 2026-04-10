@@ -6,7 +6,7 @@ export const ChatContext = createContext();
 
 // Initialize the socket outside the component to prevent multiple connections
 // Change this URL to your deployed backend URL when you go live
-const socket = io('https://active-chat-monitor-705615852872.asia-south2.run.app', { 
+const socket = io('https://active-chat-backend-203412458873.asia-south1.run.app', { 
     transports: ['websocket', 'polling'] 
 });
 
